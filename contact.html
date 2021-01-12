@@ -1,45 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Albert</title>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <title>Creative Colorlib SignUp Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!-- Custom Theme files -->
     <link href="./contact.css" rel="stylesheet" id="custom-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!------ Include the above in your HEAD tag ---------->
+    <!--    <link href="./contacts.css" rel="stylesheet" type="text/css" media="all" />-->
+    <!-- //Custom Theme files -->
+    <!-- web font -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+    <!-- //web font -->
 </head>
 <body>
-
-<div class="container contact-form" id="#contact">
-    <div class="contact-image">
-        <img src="./img_1.svg" alt="rocket_contact"/>
-    </div>
-    <form method="post" action="https://formspree.io/f/mvovddbw">
-        <h3>Tell us how many apartments do you have and we'll reach out to you</h3>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name *" value="" />
+<!-- main -->
+<div class="main-w3layouts wrapper">
+    <h1>Contact us</h1>
+    <div class="main-agileinfo">
+        <div class="agileits-top">
+            <form action="https://formspree.io/f/mvovddbw" method="post">
+                <input class="text" type="text" name="Name" placeholder="Name" required="">
+                <input class="text email" type="email" name="email" placeholder="Email" required="">
+<!--                <input class="text" type="text" name="message"-->
+<!--                       placeholder="I'm manage a number of apartments and would like to automate the process of reporting issues">-->
+                <div class="wthree-text">
+                    <!--                    <label class="anim">-->
+                    <!--                        <input type="checkbox" class="checkbox" required="">-->
+                    <!--                        <span>I Agree To The Terms & Conditions</span>-->
+                    <!--                    </label>-->
+                    <div class="clear"></div>
                 </div>
-                <div class="form-group">
-                    <input type="text" name="_replyto" class="form-control" placeholder="Your Email *" value="" />
-                </div>
-<!--                <div class="form-group">-->
-<!--                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />-->
-<!--                </div>-->
-                <div class="form-group">
-                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
-                </div>
-            </div>
+                <input type="submit" value="Submit">
+            </form>
+<!--            <p>Don't have an Account? <a href="#"> Login Now!</a></p>-->
         </div>
-    </form>
-</div>
+    </div>
+    <!-- copyright -->
 
+    <!-- //copyright -->
+    <!--    <ul class="colorlib-bubbles">-->
+    <!--        <li></li>-->
+    <!--        <li></li>-->
+    <!--        <li></li>-->
+    <!--        <li></li>-->
+    <!--        <li></li>-->
+    <!--        <li></li>-->
+    <!--        <li></li>-->
+    <!--        <li></li>-->
+    <!--        <li></li>-->
+    <!--        <li></li>-->
+    <!--    </ul>-->
+</div>
+<!-- //main -->
 </body>
 </html>
