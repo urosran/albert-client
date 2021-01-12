@@ -1,5 +1,6 @@
 body{
-    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+    /*background: -webkit-linear-gradient(left, #0072ff, #00c6ff);*/
+    background: linear-gradient(90deg, #61dafb 0%, #daae51 100%)
 }
 .contact-form{
     background: #fff;
